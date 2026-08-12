@@ -9,6 +9,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Set up MSVC x64
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          toolset: '14.3' # This corresponds to VS 2022 / v17
       - name: Configure and Build
         run: |
           mkdir build
