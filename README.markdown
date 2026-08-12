@@ -6,6 +6,7 @@ and human-readable Python source code. While other projects have achieved
 this with varied success, Decompyle++ is unique in that it seeks to
 support byte-code from any version of Python.
 
+
 Decompyle++ includes both a byte-code disassembler (pycdas) and a 
 decompiler (pycdc).
 
